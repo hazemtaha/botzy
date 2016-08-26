@@ -91,7 +91,7 @@ module WitHandler
 
         scheduler = Rufus::Scheduler.new
         scheduler.at date do
-          text = "Hey, Just reminding you of ('" + reminder + "') "
+          text = "Hey, Just reminding you of " + reminder
           Bot.deliver(recipient: { id: request["session_id"] }, message: { text: text })
         end
 
