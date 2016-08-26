@@ -6,9 +6,9 @@ include Facebook::Messenger
 include WitHandler
 
 Facebook::Messenger.configure do |config|
-  config.access_token = ENV['FB_PAGE_TOKEN'] || 'EAAZA3IL9y244BAMfM3YWZAMSZCDMKeqV3K30LnzZBuPZAmb6rxApQlw5VTXNVtedxWZCQ0vZAnZB6OeBIHnXuI9ZA5whtOlc6nxd8wiXQLklkhSNiYfYHPGDYZBAzDRkZCZAv85legyD0zXNooMtGDZBzDbkYT8gLGYkY9mlZA9GjZCjfDnNAZDZD'
+  config.access_token = ENV['FB_PAGE_TOKEN']
   config.verify_token = ENV['FB_VERIFY_TOKEN'] || 'verify_token'
-  config.app_secret = ENV['FP_APP_SECRET'] || '346533fabb079a4d5e4d76d9dfeb2a39'
+  config.app_secret = ENV['FP_APP_SECRET'] 
 end
 
 # subscribe the bot to a page

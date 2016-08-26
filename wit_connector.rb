@@ -108,7 +108,7 @@ module WitHandler
     }
   }
 
-  CLIENT = Wit.new(access_token: ENV['WIT_ACCESS_TOKEN'] || '4VZ5AZTBSOGETR5PBLSWMENMOO2JZLEA', actions: actions)
+  CLIENT = Wit.new(access_token: ENV['WIT_ACCESS_TOKEN'] , actions: actions)
 end
 
 
