@@ -8,7 +8,7 @@ include WitHandler
 Facebook::Messenger.configure do |config|
   config.access_token = ENV['FB_PAGE_TOKEN']
   config.verify_token = ENV['FB_VERIFY_TOKEN'] || 'verify_token'
-  config.app_secret = ENV['FP_APP_SECRET'] 
+  config.app_secret = ENV['FP_APP_SECRET']
 end
 
 # subscribe the bot to a page
@@ -131,6 +131,8 @@ Bot.on :postback do |postback|
     is_predefinded_postback = true
   when 'BOT_HELP'
     send_help_messages(postback.sender)
+    text = "That's all for now cya :)"
+    is_predefinded_postback = true
   end
 
   if is_predefinded_postback
