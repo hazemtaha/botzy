@@ -1,0 +1,7 @@
+module Foo
+	def hello() 
+		hello = "Hello There !"	
+	end
+
+	HI = "It's Me"
+end

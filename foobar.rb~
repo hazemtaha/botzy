@@ -1,0 +1,5 @@
+require_relative 'foo'
+
+
+
+puts Foo.HI

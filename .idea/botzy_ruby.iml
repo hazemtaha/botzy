@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <configuration default="false" name="rackup" type="RackRunConfigurationType" factoryName="Rack">
+      <module name="botzy_ruby" />
+      <RACK_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RACK_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RACK_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-2.3.0 [bot_trials]" />
+      <RACK_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RACK_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RACK_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RACK_CONFIG_SETTINGS_ID NAME="CONFIG_FILE" VALUE="config.ru" />
+      <RACK_CONFIG_SETTINGS_ID NAME="RACK_SERVER_TYPE" VALUE="WEBrick" />
+      <RACK_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-2.3.0 [bot_trials]" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.12.5, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="byebug (v9.0.5, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.1, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="daemons (v1.2.4, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="eventmachine (v1.2.0.1, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="facebook-messenger (v0.9.0, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday (v0.9.2, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.14, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="filetree (v1.0.0, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="httparty (v0.14.0, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jruby-jars (v1.7.25, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jruby-parser (v0.5.4, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="method_source (v0.8.2, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.5.5, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multipart-post (v2.0.0, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry (v0.10.3, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v2.0.1, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rsense (v0.5.18, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rsense-core (v0.6.6, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rsense-server (v0.5.18, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rufus-scheduler (v3.2.2, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.0, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="slop (v3.6.0, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spoon (v0.0.4, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thin (v1.7.0, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="wit (v4.1.0, RVM: ruby-2.3.0 [bot_trials]) [gem]" level="application" />
+  </component>
+</module>
