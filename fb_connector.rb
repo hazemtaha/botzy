@@ -41,6 +41,17 @@ Facebook::Messenger::Thread.set(
     text: 'Welcome to your new bot overlord!'
   }
 )
+
+Facebook::Messenger::Thread.set(
+  setting_type: 'call_to_actions',
+  thread_state: 'new_thread',
+  call_to_actions: [
+    {
+      payload: 'BOT_HELP'
+    }
+  ]
+)
+
 def send_help_messages(recipient)
   Bot.deliver(
     recipient: recipient,
