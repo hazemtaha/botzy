@@ -8,7 +8,7 @@ module WitHandler
 
   def first_entity_value(entities, entity)
     return nil unless entities.key? entity
-    val = entities[entity][0]['value']
+    val = entities[entity][0]['value'] || entities[entity][0]['from']['value'] 
     return nil if val.nil?
     val.is_a?(Hash) ? val['value'] : val
   end
